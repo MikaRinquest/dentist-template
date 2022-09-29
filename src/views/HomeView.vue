@@ -150,7 +150,9 @@
                 <v-list two line>
                   <v-list-item>
                     <v-list-item-avatar>
-                      <img src="https://cdn.vuetifyjs.com/image/list/3.jpg" />
+                      <img
+                        src="https://i.postimg.cc/9Xw0Vtym/woman-g99d8702e8-1920.jpg"
+                      />
                     </v-list-item-avatar>
                     <v-list-item-content>
                       <v-list-item-title>Anastasia Turner</v-list-item-title>
