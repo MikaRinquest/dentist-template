@@ -251,11 +251,6 @@
                         >Sa</v-btn
                       >
                     </v-list-item-content>
-                    <v-list-item-content>
-                      <v-btn class="mr-1" outlined color="teal darken-1"
-                        >Su</v-btn
-                      >
-                    </v-list-item-content>
                   </v-list-item>
                 </v-list>
               </v-col>
@@ -280,6 +275,52 @@
                   </v-list-item>
                 </v-card>
               </v-col>
+              <v-col cols="12" sm="12">
+                <v-card
+                  class="mx-12 rounded-tl-xl rounded-bl-xl rounded-br-xl mt-n4"
+                  color="teal lighten-5"
+                  flat
+                >
+                  <v-list-item three-line>
+                    <v-list-item-avatar tile size="30">
+                      <v-icon size="30">das fa-heartbeat</v-icon>
+                    </v-list-item-avatar>
+                    <v-list-item-content class="pa-2">
+                      <v-list-item-title class="headline mb-1">
+                        Cardiologist <br />
+                        <h6>9:45 - 11:50</h6>
+                        <h6>Dr. Elika Clark (cab 61)</h6>
+                      </v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="21"
+                ><v-btn text
+                  >Your treatment <v-icon right>mdi-chevron-down</v-icon></v-btn
+                ></v-col
+              >
+              <v-col cols="12" sm="12"
+                ><v-card
+                  class="mx-12 rounded-tl-xl rounded-bl-xl- rounded-br-xl"
+                  color="teal"
+                >
+                  <v-list-item three-line>
+                    <v-list-item-avatar tile size="30">
+                      <v-icon size="30"> mdi-pill</v-icon>
+                    </v-list-item-avatar>
+                    <v-list-item-content class="pa-2">
+                      <v-list-item-title class="headline mb-1"
+                        >Gentle Iron<br />
+                        <h6>
+                          <span class="teal--text">2 capsules</span> with meals
+                          everyday.
+                        </h6></v-list-item-title
+                      ></v-list-item-content
+                    >
+                  </v-list-item>
+                </v-card></v-col
+              >
             </v-row>
           </v-container>
         </v-app>
